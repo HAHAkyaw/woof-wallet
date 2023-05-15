@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Very Woof Wallet",
+  "version": "0.9.2",
+
+  "description": "Send and receive doginals using Very Woof Wallet",
+  "homepage_url": "https://drc-20.org/",
+  "icons": {
+    "48": "icons/icon-48.jpg"
+  },
+
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+
+  "host_permissions": [
+    "*://dogechain.info/*",
+    "*://wonky-ord.dogeord.io/*",
+    "*://api.blockchair.com/*"
+  ],
+
+  "action": {
+    "default_icon": "icons/icon-32.jpg",
+    "default_title": "Very Woof Wallet",
+    "default_popup": "popup/popup.html"
+  },
+
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "very-woof-wallet@drc-20.org"
+    }
+  }
+}
